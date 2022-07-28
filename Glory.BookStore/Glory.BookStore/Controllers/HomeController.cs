@@ -8,9 +8,19 @@ namespace Glory.BookStore.Controllers
 {
     public class HomeController : Controller
     {
-        public string Index()
+        public ViewResult Index()
         {
-            return "returned string from index action";
+            return View();
+        }
+
+        public ViewResult About()
+        {
+            return View();
+        }
+
+        public ViewResult ContactUs()
+        {
+            return View();
         }
     }
 }
